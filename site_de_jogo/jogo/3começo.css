@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/pergaminho-desdobrado-em-uma-mesa-de-madeira-textura-de-papel-velho-parede_84485-884.jpg?w=2000);
+    background-size:100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+h2{
+  text-indent: 30px;
+}
+.titulo_texto{
+    position: relative;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: center;
+    top: -100px;
+    left: 0px;
+}
+.dropdown {
+    float: inline-start;
+    position: absolute;
+    margin-left: -40%;
+    top: 470px;
+  }
+  
+  .dropdown_content {
+    background-color: #fff;
+    box-shadow: 0px 9px 63px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .dropdown li ul {
+    position: absolute;
+    top: 20px;
+    background-color: #fff;
+    display:none;
+    border-radius: 12px;
+  }
+  
+  .dropdown li:hover ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .dropdown li ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    align-items:start;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  
