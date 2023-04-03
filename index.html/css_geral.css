@@ -1,0 +1,179 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/pergaminho-desdobrado-em-uma-mesa-de-madeira-textura-de-papel-velho-parede_84485-884.jpg?w=2000);
+    background-size:100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: center;
+    top: -100px;
+    left: 0px;
+    text-indent: 30px;
+}
+
+h2{
+    text-indent: 30px;
+    position: relative;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: center;
+    top: -100px;
+    left: 0px;
+}
+
+.autor{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: -60%;
+}
+.versao{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -60%;
+}
+
+.titulo {
+    position: relative;
+    margin-left: 23%;
+    margin-right: 26%;
+    margin-top: center;
+    top: -100px;
+    left: 0px;
+    font-size: 43px;
+    font-family: ancientmodern;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(138, 128, 255);
+    font-family: 'Alkatra', cursive;
+}
+
+button {
+    background: #ffffff00;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    float: inline-start;
+    position: absolute;
+    margin-left: -55%;
+    margin-top:  5%;
+    padding: 11px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.botao {
+    background: #ffffff00;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    float: inline-start;
+    position: absolute;
+    margin-left: -35%;
+    margin-top:  5%;
+    padding: 11px 20px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.botao:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.botao2 {
+    background: #ffffff00;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    float: inline-start;
+    position: absolute;
+    margin-left: -45%;
+    margin-top:  5%;
+    padding: 11px 20px;
+    cursor: pointer;
+}
+
+.botao2:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.botao2:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.dropdown {
+    float: inline-start;
+    position: absolute;
+    margin-left: -40%;
+    top: 470px;
+}
+
+  .dropdown_content {
+    background-color: #fff;
+    box-shadow: 0px 9px 63px -10px rgba(0, 0, 0, 0.75);
+}
+
+.dropdown li ul {
+    position: absolute;
+    top: 20px;
+    background-color: #fff;
+    display:none;
+    border-radius: 12px;
+}
+  
+.dropdown li:hover ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+  
+.dropdown li ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    align-items:start;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
